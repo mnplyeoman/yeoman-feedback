@@ -1,0 +1,55 @@
+name: Bug report
+description: Сообщить о проблеме или некорректном поведении
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за сообщение. Пожалуйста, опишите одну конкретную проблему.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Краткое описание
+      description: Что именно сломалось или работает не так?
+      placeholder: Кратко опишите проблему
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      description: Что нужно сделать, чтобы увидеть проблему?
+      placeholder: |
+        1. Перейти в ...
+        2. Нажать на ...
+        3. Увидеть ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемый результат
+      placeholder: Что должно было произойти?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Фактический результат
+      placeholder: Что произошло на самом деле?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Контекст
+      description: Версия, окружение, роль пользователя, частота и другие детали
+      placeholder: Любая полезная дополнительная информация
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Скриншоты или материалы
+      description: При необходимости приложите ссылки, скриншоты или логи без секретных данных
+      placeholder: Ссылки или описание приложенных материалов

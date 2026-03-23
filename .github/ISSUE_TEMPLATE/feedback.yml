@@ -1,0 +1,38 @@
+name: Feedback
+description: Поделиться опытом использования, наблюдением или продуктовым фидбеком
+title: "[Feedback] "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за обратную связь. Чем конкретнее контекст, тем полезнее будет обсуждение.
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Сценарий
+      description: В каком контексте вы использовали продукт?
+      placeholder: Опишите задачу, поток или часть продукта
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: Наблюдение
+      description: Что было удобно, неудобно или неожиданно?
+      placeholder: Опишите ваш опыт
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Влияние
+      description: Почему это важно?
+      placeholder: Как это влияет на результат, скорость или удобство?
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Идея или ожидание
+      description: Что стоило бы изменить или проверить?
+      placeholder: Предложение, гипотеза или открытый вопрос

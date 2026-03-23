@@ -1,0 +1,34 @@
+name: Improvement
+description: Предложить улучшение функциональности, процессов или документации
+title: "[Improvement] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Проблема
+      description: Какую проблему вы хотите решить?
+      placeholder: Что сейчас неудобно, медленно или непонятно?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Предлагаемое решение
+      description: Как вы предлагаете это улучшить?
+      placeholder: Опишите идею решения
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Альтернативы
+      description: Есть ли другие варианты или компромиссы?
+      placeholder: Альтернативные подходы, если есть
+  - type: textarea
+    id: value
+    attributes:
+      label: Ценность
+      description: Какую пользу это даст команде или пользователям?
+      placeholder: Почему это улучшение важно?
