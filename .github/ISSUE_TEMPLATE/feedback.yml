@@ -1,6 +1,6 @@
-name: Feedback
+name: Обратная связь
 description: Поделиться опытом использования, наблюдением или продуктовым фидбеком
-title: "[Feedback] "
+title: "[Фидбек] "
 labels:
   - feedback
 body:

@@ -1,6 +1,6 @@
-name: Improvement
+name: Предложение по улучшению
 description: Предложить улучшение функциональности, процессов или документации
-title: "[Improvement] "
+title: "[Улучшение] "
 labels:
   - enhancement
 body:

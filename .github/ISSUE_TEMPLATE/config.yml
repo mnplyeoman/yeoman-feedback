@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Security issue
+  - name: Вопрос по безопасности
     url: https://github.com/mnplyeoman/yeoman-feedback/blob/main/SECURITY.md
     about: Для чувствительных уязвимостей используйте приватный канал, а не публичный issue
-  - name: Support guide
+  - name: Гид по поддержке
     url: https://github.com/mnplyeoman/yeoman-feedback/blob/main/SUPPORT.md
     about: Куда писать по разным типам вопросов

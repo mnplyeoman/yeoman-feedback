@@ -1,6 +1,6 @@
-name: Bug report
+name: Сообщение об ошибке
 description: Сообщить о проблеме или некорректном поведении
-title: "[Bug] "
+title: "[Ошибка] "
 labels:
   - bug
 body:

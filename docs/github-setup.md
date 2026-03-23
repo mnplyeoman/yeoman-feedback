@@ -1,8 +1,8 @@
-# GitHub Setup
+# Настройка GitHub
 
 Рекомендуемые настройки GitHub для `yeoman-feedback`.
 
-## Labels
+## Метки
 
 Базовый набор labels:
 
@@ -29,9 +29,9 @@
 - `help wanted`:
   нужен внешний вклад или помощь в проработке.
 
-## Recommended Colors
+## Рекомендуемые цвета
 
-Если хочешь единый визуальный стиль, можно использовать такие цвета:
+Если нужен единый визуальный стиль, можно использовать такие цвета:
 
 - `bug` -> `d73a4a`
 - `feedback` -> `1d76db`
@@ -45,7 +45,7 @@
 - `good first issue` -> `7057ff`
 - `help wanted` -> `008672`
 
-## Branch Rules
+## Правила для веток
 
 Для основной ветки `main` рекомендуется:
 
@@ -56,7 +56,7 @@
 5. Включить `Require conversation resolution before merging`.
 6. Разрешить merge только после прохождения обязательных проверок, если позже появится CI.
 
-## Suggested Repository Settings
+## Рекомендуемые настройки репозитория
 
 - Включить issue templates.
 - Отключить blank issues.
@@ -64,11 +64,11 @@
 - Опционально отключить merge commit, чтобы история была чище.
 - Добавить repository description про сбор обратной связи по Monopoly - yeoman.
 
-## Suggested Description
+## Рекомендуемое описание
 
-`Feedback repository for Monopoly - yeoman: bugs, product feedback, UX issues, and improvement ideas.`
+`Репозиторий обратной связи для Monopoly - yeoman: баги, продуктовый фидбек, UX-замечания и идеи улучшений.`
 
-## Suggested First Labels To Create
+## Минимальный стартовый набор меток
 
 Если хочешь начать с минимума, сначала достаточно создать:
 
